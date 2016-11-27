@@ -32,3 +32,21 @@ nav {
 p {
   font-size: 24px;
 }
+
+.panel {
+  border : 3px solid dodgerblue;
+  background: cadetblue;
+  margin: 10px;
+}
+
+.little-panel {
+  @extend .panel;
+  font-size: 12px;
+  padding: 5px;
+}
+
+.big-panel {
+  @extend .panel;
+  font-size: 32px;
+  padding: 20px;
+}
